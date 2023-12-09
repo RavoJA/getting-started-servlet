@@ -28,6 +28,7 @@ public class UserServlet extends HttpServlet {
         String name = req.getParameter("name");
         String adress = req.getParameter("address");
         String sexe = req.getParameter("sexe");
+        String id = req.getParameter("id");
 
         User user = new User(10L, name, adress, sexe);
 
